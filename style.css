@@ -195,6 +195,11 @@ a:focus-visible {
   text-align: center;
 }
 
+/* The opening shot gets more room than the inline ones */
+.shot--hero .shot__frame img {
+  max-width: 380px;
+}
+
 /* Side-by-side on wider screens */
 .shot-row {
   display: grid;
