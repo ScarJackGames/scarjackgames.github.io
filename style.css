@@ -184,7 +184,7 @@ a:focus-visible {
 .shot__frame video {
   display: block;
   width: 100%;
-  max-width: 300px;
+  max-width: 340px;
   height: auto;
   border-radius: 4px;
 }
