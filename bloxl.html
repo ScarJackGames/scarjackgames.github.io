@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to play Bloxl — the full guide | ScarJack Games</title>
+<meta name="description" content="A complete guide to Bloxl: placing blocks, building streaks, surviving danger blocks, the six worlds, the Daily Challenge, and power-ups.">
+<link rel="canonical" href="https://scarjackgames.github.io/bloxl.html">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="logo.png">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ScarJack Games">
+<meta property="og:url" content="https://scarjackgames.github.io/bloxl.html">
+<meta property="og:title" content="How to play Bloxl — the full guide">
+<meta property="og:description" content="Placing blocks, building streaks, surviving danger blocks, the six worlds, and the Daily Challenge.">
+<meta property="og:image" content="https://scarjackgames.github.io/banner.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="site-head__inner">
+    <img class="mark" src="logo.png" alt="">
+    <a class="wordmark" href="index.html">SCAR<span>JACK</span></a>
+  </div>
+</header>
+
+<main>
+  <a class="backlink" href="index.html">&lsaquo; BACK TO STUDIO</a>
+
+  <p class="eyebrow">THE FULL GUIDE</p>
+  <h1>How to play Bloxl</h1>
+  <p class="updated">Everything you need, from your first block to the Daily Challenge leaderboard.</p>
+
+  <!-- Hero shot -->
+  <figure class="shot shot--hero">
+    <div class="shot__frame">
+      <img src="shots/hero.webp" width="760" height="1651"
+           alt="A Lava board at level 7, score 135,955, with danger blocks, a rainbow block and the nuke charged">
+    </div>
+  </figure>
+
+
+  <h2>The basics</h2>
+
+  <p>Bloxl is a block-matching puzzle game. Drag coloured blocks from your containers onto the grid and line up three or more of the same colour to clear them and score. At the start of each level a formation of danger blocks appears, each one waiting for a specific colour &mdash; match that colour next to one to damage it, three times to destroy it. Clear every danger block to reach the next level. Keep placing blocks next to matching colours to build a streak and multiply your score.</p>
+
+  <div class="step">
+    <span class="step__num">01</span>
+    <div class="step__body">
+      <h3>Drag a block from a container</h3>
+      <p>Three containers sit above the grid, each holding one block. Drag a block out and place it anywhere empty on the board. The block lifts above your finger as you drag, so you can see the cell you're aiming at rather than covering it up. Empty a container and it reloads with a new colour a moment later.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <span class="step__num">02</span>
+    <div class="step__body">
+      <h3>Line up three of the same colour</h3>
+      <p>Three or more blocks of the same colour touching each other — horizontally or vertically, in any shape — clear together and score. Bigger groups are worth disproportionately more: a four-block clear beats two threes. Diagonals don't count.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <span class="step__num">03</span>
+    <div class="step__body">
+      <h3>Build a streak</h3>
+      <p>Every match extends your streak, and your streak multiplies every match you make. There's no cap, so it climbs as far as you can keep it going, with a bonus every fifth step. The catch is what breaks it: dropping a block somewhere that touches nothing useful — no matching colour, no danger block waiting for it — ends the streak instantly. A dead drop costs you nothing in points but everything in momentum, so there's real tension between placing safely and placing well.
+</p>
+    </div>
+  </div>
+
+  <!-- Gameplay loop: a match clearing -->
+  <figure class="shot">
+    <div class="shot__frame">
+      <video src="clips/match.mp4"
+             width="600" height="1304"
+             autoplay muted loop playsinline
+             preload="auto"
+             aria-label="Blocks being dragged onto the grid and clearing when three colours line up"></video>
+    </div>
+    <figcaption>Three of the same colour in a row clears them. Line them up against a danger block and it takes a hit.</figcaption>
+  </figure>
+
+
+  <h2>Danger blocks</h2>
+
+  <p>Danger blocks are the reason you're here. At the start of every level, a formation of them appears on the grid — the shape and position vary by level and theme, so you never quite settle into a routine. Each one is locked to a single colour, shown in its centre. Clear all of them and you advance.</p>
+
+  <p>They take three hits. Match their colour next to one and it takes damage; do it three times and it's destroyed. You can watch a block's health in its pulse — a full-health block beats slowly, and as it takes damage the pulse tightens, until a block one hit from death is flashing urgently. It's a health bar you read without looking away from the board.</p>
+
+  <p>Bombs are the shortcut. A bomb detonation deals a point of damage to every danger block in its blast, which is the only way to hurt one without matching its colour.</p>
+
+  <p>The catch is that danger blocks occupy space you need. They sit in the middle of the board taking up cells while the emitters either side of the grid keep firing new blocks onto it. The grid fills from the bottom, and if a block ever reaches the top row, the game is over. So every danger block is a piece of the board you can't use, and every level starts with more of them in your way.</p>
+
+  <p>And the emitters don't wait. They charge faster as the levels climb — and faster still the quicker you clear, so playing well doesn't buy you room to breathe. It just changes what the pressure feels like.</p>
+
+  <div class="shot-row">
+    <!-- Danger blocks on the board -->
+    <figure class="shot">
+      <div class="shot__frame">
+        <img src="shots/danger.webp" width="600" height="1303" loading="lazy"
+             alt="Two danger blocks on the jungle board, each showing the block colour needed to destroy it">
+      </div>
+      <figcaption>Danger blocks show the colour you need to match.</figcaption>
+    </figure>
+
+    <!-- Loop: destroying a danger block -->
+    <figure class="shot">
+      <div class="shot__frame">
+        <video src="clips/danger.mp4"
+               width="600" height="1304"
+               autoplay muted loop playsinline
+               preload="metadata"
+               aria-label="The last danger block being destroyed, triggering the wave cleared sequence and the transition to the next world"></video>
+      </div>
+      <figcaption>Destroy the last danger block to clear the wave and move to the next level.</figcaption>
+    </figure>
+  </div>
+
+
+  <h2>The six worlds</h2>
+
+  <p>Bloxl moves through six worlds, and you'll see a new one every three levels. Jungle, then Ocean, Lava, Space, Cyber, and finally Cosmos. Each has its own blocks, backgrounds, containers and emitters &mdash; nothing is reused between them.</p>
+
+  <p>Each world also has three backgrounds of its own, one per level, so the scene shifts under you even before the world changes. Jungle darkens as you go. Ocean takes you down. Lava gets closer to the fire.</p>
+
+  <p>The change isn't only cosmetic. Every world brings its own music, its own danger block formations, and its own block art — so the board you're reading at level 13 doesn't look or sound like the board you learned on at level 1. The rules never change. Everything around them does.</p>
+
+  <p>Cosmos arrives at level 16, and it's where you stay. There's no seventh world and no ending — the levels keep counting up, the emitters keep charging faster, and eventually the grid will fill. Everyone loses. The only question is when.</p>
+
+  <!-- Five worlds shown; Cosmos (16-18) is deliberately withheld
+       so players discover it by reaching it. -->
+  <div class="shot-row">
+    <figure class="shot">
+      <div class="shot__frame">
+        <img src="shots/theme-jungle.webp" width="600" height="1304" loading="lazy"
+             alt="A Jungle board at level 3, with danger blocks and the danger bar nearly full">
+      </div>
+      <figcaption>Jungle &mdash; levels 1&ndash;3</figcaption>
+    </figure>
+    <figure class="shot">
+      <div class="shot__frame">
+        <img src="shots/theme-ocean.webp" width="600" height="1304" loading="lazy"
+             alt="An Ocean board at level 6, with danger blocks across the middle of the grid and a bomb block among them">
+      </div>
+      <figcaption>Ocean &mdash; levels 4&ndash;6</figcaption>
+    </figure>
+  </div>
+
+  <div class="shot-row">
+    <figure class="shot">
+      <div class="shot__frame">
+        <img src="shots/theme-lava.webp" width="600" height="1304" loading="lazy"
+             alt="A Lava board at level 8 showing a x10 streak, with danger blocks and two bombs on the grid">
+      </div>
+      <figcaption>Lava &mdash; levels 7&ndash;9</figcaption>
+    </figure>
+    <figure class="shot">
+      <div class="shot__frame">
+        <img src="shots/theme-space.webp" width="600" height="1304" loading="lazy"
+             alt="A Space board at level 10 with a row of danger blocks across the middle and a rainbow block below">
+      </div>
+      <figcaption>Space &mdash; levels 10&ndash;12</figcaption>
+    </figure>
+  </div>
+
+  <div class="shot-row">
+    <figure class="shot">
+      <div class="shot__frame">
+        <img src="shots/theme-cyber.webp" width="600" height="1304" loading="lazy"
+             alt="A Cyber board, neon circuitry behind a grid of glowing block panels">
+      </div>
+      <figcaption>Cyber &mdash; levels 13&ndash;15</figcaption>
+    </figure>
+    <figure class="shot">
+      <div class="shot__frame">
+        <div class="locked" role="img"
+             aria-label="Cosmos is not shown. Reach level 16 to see it.">
+          <span class="locked__icon">&#9679;</span>
+          <span class="locked__line">REACH LEVEL 16</span>
+          <span class="locked__sub">to see this one</span>
+        </div>
+      </div>
+      <figcaption>Cosmos &mdash; levels 16&ndash;18</figcaption>
+    </figure>
+  </div>
+
+  <h2>Power-ups</h2>
+
+  <p>Three things break the normal rules. None of them arrive on demand &mdash; you take them when they show up.</p>
+
+  <h3>Bombs</h3>
+
+  <p>A bomb has no colour of its own. It joins whatever group it's touching, so a bomb sitting between two reds counts as the third red &mdash; and when that group clears, the bomb takes a 3&times;3 chunk of the board with it.</p>
+
+  <p>The real value is what it does to danger blocks. A bomb deals one point of damage to every danger block in its blast, no colour required. It's the only way to hurt a danger block without matching its colour, so a bomb dropped into a cluster can take a hit off three or four of them at once.</p>
+
+  <p>Bombs start appearing at level 2, in about one container refill in twenty.</p>
+
+  <h3>Rainbow blocks</h3>
+
+  <p>A rainbow block is every colour at once. Place it against any group and it counts as one of them &mdash; two reds and a rainbow is a match, two blues and the same rainbow is also a match. Chain two rainbows together and they'll carry a match through the gap between them.</p>
+
+  <p>They're rare, and they don't turn up until level 4. Roughly one refill in thirty.</p>
+
+  <h3>The nuke</h3>
+
+  <p>The nuke charges as you clear. Every block you clear feeds the meter along the bottom of the screen, and at 120 blocks the button lights up. Tap it and the board goes into targeting mode &mdash; you choose the cell, not the game.</p>
+
+  <p>It clears a 5&times;5 area, which is a quarter of the grid in one press. But here's the part people get wrong: <strong>the nuke spares danger blocks.</strong> It won't scratch them. What it gives you is space &mdash; it wipes the clutter out of a jammed board and hands you room to work, which when the emitters are firing and your grid is climbing towards the top row is often worth more than damage.</p>
+
+  <p>Then the meter empties and you start again.</p>
+
+  <!-- Loop: the nuke firing -->
+  <figure class="shot">
+    <div class="shot__frame">
+      <video src="clips/nuke.mp4"
+             width="600" height="1304"
+             autoplay muted loop playsinline
+             preload="metadata"
+             aria-label="The nuke detonating and clearing a 5 by 5 area of the grid"></video>
+    </div>
+    <figcaption>The nuke clears a 5&times;5 area of normal blocks &mdash; danger blocks survive it.</figcaption>
+  </figure>
+
+
+  <h2>The Daily Challenge</h2>
+
+  <p>Every day, everyone gets the same board.</p>
+
+  <p>Two minutes on the clock. The layout, the blocks you're handed, the danger formations that arrive &mdash; all of it is generated from the date, so the board you're playing is the exact board everyone else is playing. There's no luck to blame. Whatever separates your score from theirs is what you did with the same two minutes.</p>
+
+  <p>The world rotates daily too, working through all six. So the daily is where you'll see Cyber and Cosmos long before Classic mode would ever get you there.</p>
+
+  <p>It's faster than Classic. The emitters fire about three times as quickly, and the clock doesn't care how carefully you're planning. When time's up, your score goes to the leaderboard, and tomorrow there's a new board.</p>
+
+  <figure class="shot">
+    <div class="shot__frame">
+      <img src="shots/daily.webp" width="600" height="1304" loading="lazy"
+           alt="The Daily Challenge in the Space world, with 1:35 left on the clock and a score of 135">
+    </div>
+    <figcaption>Two minutes, the same board for every player, a new one tomorrow.</figcaption>
+  </figure>
+
+
+  <h2>Leaderboards</h2>
+
+  <p>Bloxl uses Apple's Game Center, so there's nothing to sign up for. If you're already signed in on your phone, you're on the boards.</p>
+
+  <p>There are two of them. <strong>Classic</strong> is your all-time best &mdash; one score, the furthest you've ever got. It only updates when you beat yourself, so the number sitting there is your personal best, not your last attempt. <strong>Daily</strong> is today's board, and it resets every day along with the challenge, so a bad run costs you nothing beyond tomorrow.</p>
+
+  <p>The one thing worth checking: you need to be signed in to Game Center for any of this to work. <strong>Settings &rsaquo; Game Center</strong> on your phone. If you're signed out, the game plays exactly the same &mdash; you just won't see your scores anywhere but your own screen.</p>
+
+
+  <h2>Tips</h2>
+
+  <p><strong>Match against the danger blocks, not away from them.</strong> The most common beginner mistake is clearing safe, easy matches at the bottom of the grid. It feels productive and it isn't &mdash; points don't advance you, destroying danger blocks does. Every match you make somewhere harmless is a container refill you've spent going nowhere.</p>
+
+  <p><strong>Clearing fast makes the emitters fire faster.</strong> The game watches your clear rate and speeds up to meet it. That's the central tension: you need to destroy the danger blocks quickly to progress, but the quicker you work, the more blocks arrive to get in your way. There's no pace that makes the pressure go away.</p>
+
+  <p><strong>Save bombs for clusters.</strong> A bomb takes a hit off every danger block in its 3&times;3 blast, so one dropped into a tight group does the work of three matches. In the later levels, where the formations pack together, that's often the difference between clearing a wave and drowning in it.</p>
+
+  <p><strong>The nuke won't touch danger blocks &mdash; that's not what it's for.</strong> Save it for when the grid is filling faster than you can clear and the danger blocks are buried. It won't damage them, but it'll dig them out and give you the room to do it yourself.</p>
+
+
+  <div class="divider">
+    <ul class="blocks"><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+  </div>
+
+  <!-- ============================================================
+       DOWNLOAD CTA — swap in the App Store link once live.
+       Until then this points at support. Apple's official badge:
+       https://developer.apple.com/app-store/marketing/guidelines/
+       ============================================================ -->
+  <div class="card">
+    <span class="label">GET BRIXL</span>
+    <p>Bloxl is in testing and not on the App Store yet. When it lands it'll be free &mdash; no ads, no in-app purchases, no data collection. <a href="mailto:scarjackgames@gmail.com?subject=Bloxl">Drop us a line</a> if you'd like to know when.</p>
+  </div>
+
+</main>
+
+<footer class="site-foot">
+  <div class="site-foot__inner">
+    <span>&copy; 2026 ScarJack Games</span>
+    <a href="privacy.html">Privacy</a>
+    <a href="support.html">Support</a>
+    <span class="spacer"><a href="mailto:scarjackgames@gmail.com">Contact</a></span>
+  </div>
+</footer>
+
+</body>
+</html>

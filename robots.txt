@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://leadoverlove.github.io/sitemap.xml
+Sitemap: https://scarjackgames.github.io/sitemap.xml
