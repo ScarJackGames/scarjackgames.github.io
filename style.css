@@ -258,31 +258,6 @@ a:focus-visible {
   color: var(--muted);
 }
 
-/* ---- Placeholder: delete these rules once real media is in ---- */
-.placeholder {
-  background: repeating-linear-gradient(
-    45deg,
-    #140F10,
-    #140F10 10px,
-    #1A1214 10px,
-    #1A1214 20px
-  );
-  border: 1px dashed #3A2C2E;
-  aspect-ratio: 9 / 19.5;
-  width: 100%;
-  max-width: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-  color: #6A605C;
-  font-family: var(--display);
-  font-size: 9px;
-  line-height: 2;
-}
-.placeholder--wide { aspect-ratio: 16 / 9; max-width: 100%; }
-
 /* ---- Numbered steps ---- */
 .step {
   display: flex;
